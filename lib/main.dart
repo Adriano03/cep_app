@@ -1,4 +1,4 @@
-import 'package:cep_app/pages/home_page.dart';
+import 'package:cep_app/pages/home_page_single_class.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,12 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter App Cep',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const HomePageSingleClass(),
     );
   }
 }
-
